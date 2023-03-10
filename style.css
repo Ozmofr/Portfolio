@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
 
+*{
+	text-decoration: none;
+	list-style-type: none;
+	scroll-behavior: smooth;
+	color: white;
+}
+
 body {
 	font-family: 'Noto Sans JP', sans-serif;
 	padding: 0 2%;
@@ -7,9 +14,13 @@ body {
 	background-image: url(/fond.jpg);
 	background-size: cover;
 	color: #ffffff;
-	text-decoration: none;
-	list-style-type: none;
-	scroll-behavior: smooth;
+}
+
+button{
+	border-radius: 10px;
+	border: none;
+	padding: 7px;
+	background-color: orange;
 }
 
 nav {
@@ -151,6 +162,8 @@ footer .colonne p {
 footer .colonne p:hover {
 	color: #fff;
 }
+
+
 
 @media screen and (max-width: 700px) {
 	nav {
