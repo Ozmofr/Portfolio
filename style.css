@@ -4,8 +4,12 @@ body {
 	font-family: 'Noto Sans JP', sans-serif;
 	padding: 0 2%;
 	margin: 0;
-	background-color: #000000;
+	background-image: url(/fond.jpg);
+	background-size: cover;
 	color: #ffffff;
+	text-decoration: none;
+	list-style-type: none;
+	scroll-behavior: smooth;
 }
 
 nav {
@@ -13,9 +17,10 @@ nav {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	background-color: rgb(0, 0, 0);
-	position: sticky;
+	position: relative;
 	top: 0;
+	
+	
 }
 nav .profile {
 	display: flex;
@@ -54,6 +59,19 @@ nav ul a{
 	margin-top: 5%;
 	max-width: 80%;
 }
+
+#bts{
+	font-size: 3vw;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 3vw;
+}
+header{
+	font-size: 6vw;
+}
+
 .page-content header h1 {
 	margin: 0;
 	text-transform: uppercase;
@@ -113,7 +131,9 @@ nav ul a{
 	font-size: 13px;
 	color: rgb(145, 145, 145);
 }
-
+span.blue{
+	color: rgb(51, 51, 243);
+}
 footer {
 	margin-top: 5%;
 	display: flex;
