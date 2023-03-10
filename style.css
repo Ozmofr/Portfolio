@@ -90,12 +90,12 @@ header{
 	font-size: 15px;
 	font-weight: bold;
 	padding-bottom: 5px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #cccccc;
 	cursor: pointer;
 }
 .page-content header button:hover {
-	color: #ccc;
-	border-bottom-color: #000;
+	color: #cccccc;
+	border-bottom-color: #000000;
 }
 .page-content .presentation-image {
 	margin-top: 5%;
@@ -140,7 +140,7 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 10px;
-	background-color: #000;
+	background-color: #000000;
 	color: white;
 }
 footer .colonne p {
